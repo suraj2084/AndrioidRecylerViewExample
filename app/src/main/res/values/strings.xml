@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RecylerViewExample</string>
+    <string name="Name">Contact Name</string>
+    <string name="Number">Contact Number</string>
+    <string name="Description">Contact Image</string>
+    <string name="Add_UpdateContact">Add</string>
+    <string name="EName">Enter Name</string>
+    <string name="ENumber">Enter Number</string>
+</resources>

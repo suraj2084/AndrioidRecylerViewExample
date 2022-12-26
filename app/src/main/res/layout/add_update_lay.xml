@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:background="@color/design_default_color_secondary"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="20dp"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:text="Add Contact"
+        android:layout_margin="21dp"
+        android:id="@+id/txttile"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:hint="@string/ENumber"
+        android:padding="11dp"
+        android:id="@+id/editNumber"
+        android:inputType="number"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:layout_marginTop="11dp"
+        android:hint="@string/EName"
+        android:padding="11dp"
+        android:id="@+id/editName"
+        android:inputType="text"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Add_UpdateContact"
+        android:layout_gravity="end"
+        android:textColor="@color/design_default_color_secondary"
+        android:backgroundTint="#fff"
+        android:layout_marginTop="11dp"
+        android:id="@+id/btnAction"/>
+
+
+
+
+</LinearLayout>
